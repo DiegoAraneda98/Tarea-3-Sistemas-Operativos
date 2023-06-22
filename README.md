@@ -1,6 +1,6 @@
 # Tarea-3-Sistemas-Operativos
-## Servidores (1 o 2)
-### Esta tarea consiste en crear un juego sobre una ***Carrera de caballos***, en la cual deberemos implementar en lenguaje de programación ***C***, junto con la librería de ***ncurses.h*** para ayudarnos con el control de la pantalla del juego, tambien junto a la librería ***pthread.h*** para el manejo de hilos en la carrera y por último el movimiento de los caballos durante la carrera será aleatorio.
+## Cajas registradoras Supermercado
+### Esta tarea consiste en implementar el funcionamiento de una o dos cajas registradoras de un supermercado por medio del lenguaje de programación ***C***, en el cual se utilizará las bibliotecas  ***ncurses.h***, ***semaphore.h***, para el control de hebras, y para el manejo de pantalla se utilizara ***ncurses.h***.
 
 ## Programas utilizados
 
@@ -16,12 +16,7 @@
 * ***ncurses.h***: Biblioteca para el manejo de la pantalla.
 * ***semaphore.h***: Biblioteca para.
 
-## Instalación 
-
-* Necesitaremos instalar la libreria de ncurses.h con el siguiente comando en la terminal.
-```
-sudo apte install libncurses5-dev libncursesw5-dev
-```
+## Descarga del programa 
 
 * Para descargar el programa haga click en el siguiente [Link]()
 
@@ -36,7 +31,14 @@ cd Desktop/carrera_caballos_2
 gcc -o tarea3_ejemplo tarea3_ejemplo.c -lpthread
 ```
 
-* Para poder correr el programa como tal debemos pasarle unos parametros antes de ejecutarlo de la siguiente manera:
+* Para poder correr el programa como tal debemos pasarle unos parametros antes de ejecutarlo de la siguiente manera. Los parametros que son asignados son los siguientes:
+* ***capacidad_almacen***:.
+* ***rondas***: .
+* ***demora_min_productor***:.
+* **demora_max_productor***: .
+* ***demora_min_consumidor***: .
+* ***demora_max_consumidor***: .
+
 ```
 ./ tarea3_ejemplo 1 5 10 10 10 15
 ```

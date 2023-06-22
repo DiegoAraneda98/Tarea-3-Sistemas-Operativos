@@ -45,28 +45,7 @@ gcc -o tarea3_ejemplo tarea3_ejemplo.c -lpthread
 
 ## Resultados
 ```
-Caballo A: 2 vueltas - 60 metros
-Caballo B: 2 vueltas - 60 metros
-Caballo C: 2 vueltas - 60 metros
-Caballo D: 2 vueltas - 60 metros
-Caballo E: 2 vueltas - 60 metros
-Caballo F: 2 vueltas - 60 metros
-Caballo G: 2 vueltas - 60 metros
-
-Totales: 14 vueltas - 420 metros
-
-Carril 0|A|A-----------------------|2/2 vueltas
-Carril 1|B|B-----------------------|2/2 vueltas
-Carril 2|C|C-----------------------|2/2 vueltas
-Carril 3|D|D-----------------------|2/2 vueltas
-Carril 4|E|E-----------------------|2/2 vueltas
-Carril 5|F|F-----------------------|2/2 vueltas
-Carril 6|G|G-----------------------|2/2 vueltas
-
-Largo de la pista: 30 metros
-Numero de vueltas: 2
-El ganador es: D
-Carrera Terminada!!!!!!
+Ejemplo resultado
 
 ```
 ## Autores

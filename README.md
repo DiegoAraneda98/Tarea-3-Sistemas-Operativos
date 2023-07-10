@@ -39,8 +39,6 @@ gcc -o tarea3_ejemplo tarea3_ejemplo.c -lpthread
 
 ## Resultados
 ```
-CAJA 0 ; CLIENTES: 1 ; PRODUCTOS: 16 ; ALMACEN: 8
-CAJA 1 ; CLIENTES: 8 ; PRODUCTOS: 11 ; ALMACEN: 10
 CAJA 0 ; INICIO RONDA: 0
 CAJA 0 ; RONDA: 0 ; Indice almacen 0 produce 1
 CAJA 1 ; RONDA: 0 ; Indice almacen 0 produce 1
